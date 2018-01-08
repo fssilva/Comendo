@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0A1DC36D4184F8B62605C44F /* Pods_ComendoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53BB09329D9BAABE82A55422 /* Pods_ComendoTests.framework */; };
+		23EE05581187E63CA9E230CA /* Pods_Comendo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D4BEAE2515294B98412148C /* Pods_Comendo.framework */; };
+		2E3BF98FE97EE1E2595FDE49 /* Pods_ComendoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A83E1AAA6E371029BBA1C7CF /* Pods_ComendoUITests.framework */; };
 		8B23A29C20039F21003EA4AD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B23A29B20039F21003EA4AD /* AppDelegate.swift */; };
 		8B23A29E20039F21003EA4AD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B23A29D20039F21003EA4AD /* ViewController.swift */; };
 		8B23A2A120039F21003EA4AD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B23A29F20039F21003EA4AD /* Main.storyboard */; };
@@ -14,6 +17,17 @@
 		8B23A2A620039F21003EA4AD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B23A2A420039F21003EA4AD /* LaunchScreen.storyboard */; };
 		8B23A2B120039F21003EA4AD /* ComendoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B23A2B020039F21003EA4AD /* ComendoTests.swift */; };
 		8B23A2BC20039F21003EA4AD /* ComendoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B23A2BB20039F21003EA4AD /* ComendoUITests.swift */; };
+		8B23A2D020039FD5003EA4AD /* RestaurantListRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B23A2CC20039FD5003EA4AD /* RestaurantListRouter.swift */; };
+		8B23A2D120039FD5003EA4AD /* RestaurantListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B23A2CD20039FD5003EA4AD /* RestaurantListViewController.swift */; };
+		8B23A2D220039FD5003EA4AD /* RestaurantListBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B23A2CE20039FD5003EA4AD /* RestaurantListBuilder.swift */; };
+		8B23A2D320039FD5003EA4AD /* RestaurantListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B23A2CF20039FD5003EA4AD /* RestaurantListViewModel.swift */; };
+		8B23A2D820039FE8003EA4AD /* RestaurantDetailsRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B23A2D420039FE8003EA4AD /* RestaurantDetailsRouter.swift */; };
+		8B23A2D920039FE8003EA4AD /* RestaurantDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B23A2D520039FE8003EA4AD /* RestaurantDetailsViewController.swift */; };
+		8B23A2DA20039FE8003EA4AD /* RestaurantDetailsBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B23A2D620039FE8003EA4AD /* RestaurantDetailsBuilder.swift */; };
+		8B23A2DB20039FE8003EA4AD /* RestaurantDetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B23A2D720039FE8003EA4AD /* RestaurantDetailsViewModel.swift */; };
+		8B23A2DE2003A3D9003EA4AD /* Restaurants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B23A2DD2003A3D9003EA4AD /* Restaurants.swift */; };
+		8B23A2E02003A3E1003EA4AD /* SortingValues.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B23A2DF2003A3E1003EA4AD /* SortingValues.swift */; };
+		8B23A2E22003A481003EA4AD /* ComendoDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B23A2E12003A481003EA4AD /* ComendoDataModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +48,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		00B38EDAD36FD8A0A2BE8FBE /* Pods-Comendo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Comendo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Comendo/Pods-Comendo.debug.xcconfig"; sourceTree = "<group>"; };
+		53BB09329D9BAABE82A55422 /* Pods_ComendoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ComendoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		632A2C6AD6D2FD427B46AA25 /* Pods-ComendoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ComendoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ComendoTests/Pods-ComendoTests.release.xcconfig"; sourceTree = "<group>"; };
+		791A4790053A542457E393C9 /* Pods-ComendoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ComendoUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ComendoUITests/Pods-ComendoUITests.release.xcconfig"; sourceTree = "<group>"; };
 		8B23A29820039F21003EA4AD /* Comendo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Comendo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B23A29B20039F21003EA4AD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8B23A29D20039F21003EA4AD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +65,22 @@
 		8B23A2B720039F21003EA4AD /* ComendoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ComendoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B23A2BB20039F21003EA4AD /* ComendoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComendoUITests.swift; sourceTree = "<group>"; };
 		8B23A2BD20039F21003EA4AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B23A2CC20039FD5003EA4AD /* RestaurantListRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantListRouter.swift; sourceTree = "<group>"; };
+		8B23A2CD20039FD5003EA4AD /* RestaurantListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantListViewController.swift; sourceTree = "<group>"; };
+		8B23A2CE20039FD5003EA4AD /* RestaurantListBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantListBuilder.swift; sourceTree = "<group>"; };
+		8B23A2CF20039FD5003EA4AD /* RestaurantListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantListViewModel.swift; sourceTree = "<group>"; };
+		8B23A2D420039FE8003EA4AD /* RestaurantDetailsRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantDetailsRouter.swift; sourceTree = "<group>"; };
+		8B23A2D520039FE8003EA4AD /* RestaurantDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantDetailsViewController.swift; sourceTree = "<group>"; };
+		8B23A2D620039FE8003EA4AD /* RestaurantDetailsBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantDetailsBuilder.swift; sourceTree = "<group>"; };
+		8B23A2D720039FE8003EA4AD /* RestaurantDetailsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantDetailsViewModel.swift; sourceTree = "<group>"; };
+		8B23A2DD2003A3D9003EA4AD /* Restaurants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Restaurants.swift; sourceTree = "<group>"; };
+		8B23A2DF2003A3E1003EA4AD /* SortingValues.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SortingValues.swift; sourceTree = "<group>"; };
+		8B23A2E12003A481003EA4AD /* ComendoDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComendoDataModel.swift; sourceTree = "<group>"; };
+		9D4BEAE2515294B98412148C /* Pods_Comendo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Comendo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A83E1AAA6E371029BBA1C7CF /* Pods_ComendoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ComendoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3A4983A80AB2B8665813320 /* Pods-Comendo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Comendo.release.xcconfig"; path = "Pods/Target Support Files/Pods-Comendo/Pods-Comendo.release.xcconfig"; sourceTree = "<group>"; };
+		F616B8CDC5DB88B284C2A8B6 /* Pods-ComendoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ComendoUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ComendoUITests/Pods-ComendoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		FE85D9A01A544B99322E0DB3 /* Pods-ComendoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ComendoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ComendoTests/Pods-ComendoTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				23EE05581187E63CA9E230CA /* Pods_Comendo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +96,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A1DC36D4184F8B62605C44F /* Pods_ComendoTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +104,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2E3BF98FE97EE1E2595FDE49 /* Pods_ComendoUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		691E33FB574D03B6F891E2B8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9D4BEAE2515294B98412148C /* Pods_Comendo.framework */,
+				53BB09329D9BAABE82A55422 /* Pods_ComendoTests.framework */,
+				A83E1AAA6E371029BBA1C7CF /* Pods_ComendoUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		8B23A28F20039F21003EA4AD = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +128,8 @@
 				8B23A2AF20039F21003EA4AD /* ComendoTests */,
 				8B23A2BA20039F21003EA4AD /* ComendoUITests */,
 				8B23A29920039F21003EA4AD /* Products */,
+				96F017511DD4160D120100A2 /* Pods */,
+				691E33FB574D03B6F891E2B8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,6 +146,8 @@
 		8B23A29A20039F21003EA4AD /* Comendo */ = {
 			isa = PBXGroup;
 			children = (
+				8B23A2DC2003A1B6003EA4AD /* model */,
+				8B23A2C920039FA8003EA4AD /* scenes */,
 				8B23A29B20039F21003EA4AD /* AppDelegate.swift */,
 				8B23A29D20039F21003EA4AD /* ViewController.swift */,
 				8B23A29F20039F21003EA4AD /* Main.storyboard */,
@@ -125,6 +176,60 @@
 			path = ComendoUITests;
 			sourceTree = "<group>";
 		};
+		8B23A2C920039FA8003EA4AD /* scenes */ = {
+			isa = PBXGroup;
+			children = (
+				8B23A2CB20039FBA003EA4AD /* restaurantDetails */,
+				8B23A2CA20039FB3003EA4AD /* restaurantList */,
+			);
+			path = scenes;
+			sourceTree = "<group>";
+		};
+		8B23A2CA20039FB3003EA4AD /* restaurantList */ = {
+			isa = PBXGroup;
+			children = (
+				8B23A2CC20039FD5003EA4AD /* RestaurantListRouter.swift */,
+				8B23A2CD20039FD5003EA4AD /* RestaurantListViewController.swift */,
+				8B23A2CE20039FD5003EA4AD /* RestaurantListBuilder.swift */,
+				8B23A2CF20039FD5003EA4AD /* RestaurantListViewModel.swift */,
+			);
+			path = restaurantList;
+			sourceTree = "<group>";
+		};
+		8B23A2CB20039FBA003EA4AD /* restaurantDetails */ = {
+			isa = PBXGroup;
+			children = (
+				8B23A2D420039FE8003EA4AD /* RestaurantDetailsRouter.swift */,
+				8B23A2D520039FE8003EA4AD /* RestaurantDetailsViewController.swift */,
+				8B23A2D620039FE8003EA4AD /* RestaurantDetailsBuilder.swift */,
+				8B23A2D720039FE8003EA4AD /* RestaurantDetailsViewModel.swift */,
+			);
+			path = restaurantDetails;
+			sourceTree = "<group>";
+		};
+		8B23A2DC2003A1B6003EA4AD /* model */ = {
+			isa = PBXGroup;
+			children = (
+				8B23A2DF2003A3E1003EA4AD /* SortingValues.swift */,
+				8B23A2DD2003A3D9003EA4AD /* Restaurants.swift */,
+				8B23A2E12003A481003EA4AD /* ComendoDataModel.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		96F017511DD4160D120100A2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				00B38EDAD36FD8A0A2BE8FBE /* Pods-Comendo.debug.xcconfig */,
+				E3A4983A80AB2B8665813320 /* Pods-Comendo.release.xcconfig */,
+				FE85D9A01A544B99322E0DB3 /* Pods-ComendoTests.debug.xcconfig */,
+				632A2C6AD6D2FD427B46AA25 /* Pods-ComendoTests.release.xcconfig */,
+				F616B8CDC5DB88B284C2A8B6 /* Pods-ComendoUITests.debug.xcconfig */,
+				791A4790053A542457E393C9 /* Pods-ComendoUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +237,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8B23A2C020039F21003EA4AD /* Build configuration list for PBXNativeTarget "Comendo" */;
 			buildPhases = (
+				6794B6F9F0642D5E3AF0041C /* [CP] Check Pods Manifest.lock */,
 				8B23A29420039F21003EA4AD /* Sources */,
 				8B23A29520039F21003EA4AD /* Frameworks */,
 				8B23A29620039F21003EA4AD /* Resources */,
+				4ECD0BAA9E760F73B81B44E2 /* [CP] Embed Pods Frameworks */,
+				EDFF865EC3D034B05AF0B462 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +257,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8B23A2C320039F21003EA4AD /* Build configuration list for PBXNativeTarget "ComendoTests" */;
 			buildPhases = (
+				366762CAB68F2962EFC275C2 /* [CP] Check Pods Manifest.lock */,
 				8B23A2A820039F21003EA4AD /* Sources */,
 				8B23A2A920039F21003EA4AD /* Frameworks */,
 				8B23A2AA20039F21003EA4AD /* Resources */,
+				7D5C0A97328EA73B62BB7AAE /* [CP] Embed Pods Frameworks */,
+				A4962EC9FE3DEA3D1AAE2387 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +278,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8B23A2C620039F21003EA4AD /* Build configuration list for PBXNativeTarget "ComendoUITests" */;
 			buildPhases = (
+				090E5BB220DA9EF380CB5A59 /* [CP] Check Pods Manifest.lock */,
 				8B23A2B320039F21003EA4AD /* Sources */,
 				8B23A2B420039F21003EA4AD /* Frameworks */,
 				8B23A2B520039F21003EA4AD /* Resources */,
+				6FCEA0E4DA2E8631EBCF80A9 /* [CP] Embed Pods Frameworks */,
+				CAE3477E293680064632DD26 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -254,12 +368,184 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		090E5BB220DA9EF380CB5A59 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ComendoUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		366762CAB68F2962EFC275C2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ComendoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4ECD0BAA9E760F73B81B44E2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Comendo/Pods-Comendo-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Comendo/Pods-Comendo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6794B6F9F0642D5E3AF0041C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Comendo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6FCEA0E4DA2E8631EBCF80A9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ComendoUITests/Pods-ComendoUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7D5C0A97328EA73B62BB7AAE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ComendoTests/Pods-ComendoTests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/RxBlocking/RxBlocking.framework",
+				"${BUILT_PRODUCTS_DIR}/RxTest/RxTest.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxBlocking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxTest.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ComendoTests/Pods-ComendoTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A4962EC9FE3DEA3D1AAE2387 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ComendoTests/Pods-ComendoTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CAE3477E293680064632DD26 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ComendoUITests/Pods-ComendoUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EDFF865EC3D034B05AF0B462 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Comendo/Pods-Comendo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		8B23A29420039F21003EA4AD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B23A2E02003A3E1003EA4AD /* SortingValues.swift in Sources */,
+				8B23A2DA20039FE8003EA4AD /* RestaurantDetailsBuilder.swift in Sources */,
+				8B23A2D820039FE8003EA4AD /* RestaurantDetailsRouter.swift in Sources */,
+				8B23A2D020039FD5003EA4AD /* RestaurantListRouter.swift in Sources */,
+				8B23A2DE2003A3D9003EA4AD /* Restaurants.swift in Sources */,
+				8B23A2D320039FD5003EA4AD /* RestaurantListViewModel.swift in Sources */,
+				8B23A2D120039FD5003EA4AD /* RestaurantListViewController.swift in Sources */,
 				8B23A29E20039F21003EA4AD /* ViewController.swift in Sources */,
+				8B23A2DB20039FE8003EA4AD /* RestaurantDetailsViewModel.swift in Sources */,
+				8B23A2D220039FD5003EA4AD /* RestaurantListBuilder.swift in Sources */,
+				8B23A2D920039FE8003EA4AD /* RestaurantDetailsViewController.swift in Sources */,
+				8B23A2E22003A481003EA4AD /* ComendoDataModel.swift in Sources */,
 				8B23A29C20039F21003EA4AD /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -424,6 +710,7 @@
 		};
 		8B23A2C120039F21003EA4AD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 00B38EDAD36FD8A0A2BE8FBE /* Pods-Comendo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -439,6 +726,7 @@
 		};
 		8B23A2C220039F21003EA4AD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E3A4983A80AB2B8665813320 /* Pods-Comendo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -454,6 +742,7 @@
 		};
 		8B23A2C420039F21003EA4AD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE85D9A01A544B99322E0DB3 /* Pods-ComendoTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -471,6 +760,7 @@
 		};
 		8B23A2C520039F21003EA4AD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 632A2C6AD6D2FD427B46AA25 /* Pods-ComendoTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -488,6 +778,7 @@
 		};
 		8B23A2C720039F21003EA4AD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F616B8CDC5DB88B284C2A8B6 /* Pods-ComendoUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -504,6 +795,7 @@
 		};
 		8B23A2C820039F21003EA4AD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 791A4790053A542457E393C9 /* Pods-ComendoUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
