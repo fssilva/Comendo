@@ -1,0 +1,11 @@
+{
+    "sortingKeys":[
+           "bestMatch",
+           "newest",
+           "ratingAverage",
+           "distance",
+           "popularity",
+           "averageProductPrice",
+           "deliveryCosts"
+    ]
+}

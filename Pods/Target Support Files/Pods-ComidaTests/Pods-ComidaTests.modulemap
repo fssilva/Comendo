@@ -1,0 +1,6 @@
+framework module Pods_ComidaTests {
+  umbrella header "Pods-ComidaTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

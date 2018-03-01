@@ -1,0 +1,1150 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0BBC446A2B3D4823BA6C0ACDA9EAE45D /* Pods-ComidaTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C9360843773A14B5A1BCCEC3CC60D885 /* Pods-ComidaTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0E3BFC96C6A7CCADAF3DA6C3C80F35EC /* SWActionSheet.h in Headers */ = {isa = PBXBuildFile; fileRef = BAED22CBC004472E2851729540F3854F /* SWActionSheet.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		109306170FA7802CDAAF8129F9B31887 /* Navigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A8482CAD4E910E1EBFDB9765BF0BC62 /* Navigation.swift */; };
+		1648AB9E52071D70CD79280AB21C94D1 /* ActionSheetDistancePicker.h in Headers */ = {isa = PBXBuildFile; fileRef = B9D92AB4D2F551562EB1FC17A2298985 /* ActionSheetDistancePicker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1A0130E51AF422F68818416677EE6595 /* ActionSheetDatePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A75E0A66677DD4F5EF0536163DE9CE9 /* ActionSheetDatePicker.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		239BEB762B67F274BBEE94157A2D832A /* CoreArchitecture-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FD7586063755DB65EA263009D6352D6A /* CoreArchitecture-dummy.m */; };
+		246DD685C951FFF04D55232211F076CD /* ActionSheetDistancePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 43E506F25E2A6CC501B42199F601A061 /* ActionSheetDistancePicker.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		2680FB2A9AAFE79796C23A20390CEF45 /* AbstractActionSheetPicker.h in Headers */ = {isa = PBXBuildFile; fileRef = B4CEE893C37D0E825E79E60D15A0EBAD /* AbstractActionSheetPicker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		27A3D509E77806BEBB3B4F196B145AC4 /* Middleware.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1AE5A38F47E0C7D49EC616E724F3DEA /* Middleware.swift */; };
+		29C34B43AFA7A1D88AB188801C76E08C /* ActionSheetPicker-3.0-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 45F07EB56A8C5F49E8FE6623196B4C43 /* ActionSheetPicker-3.0-dummy.m */; };
+		36C9719994A65D17369C6D4848029D38 /* Pods-ComidaUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DD8699A44FE32CE20E81C1E0E6ABAA34 /* Pods-ComidaUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3797A9C2890E10D2BCFA2272F0763AE4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		3C8D2470783809376BA929A9603C21D9 /* DistancePickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = DF8465424F97ADA00ADC892C243BC334 /* DistancePickerView.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		3DFE0B0F0E2DF6D5F55A50FCDA19B46F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		430E0A46B42F47FF79AE16168D1613E9 /* ActionSheetLocalePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 0223F87A69B555D7EE758CC57FE76E87 /* ActionSheetLocalePicker.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		59A42E97C831FA7B94CC77178FA678B3 /* Pods-ComidaTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 332C24117DBD264CFA3D60E676597538 /* Pods-ComidaTests-dummy.m */; };
+		6224A1D397ECDEE9C9E0B84CAFF3768B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		6C16BD3BCB1B65194E7CEA5CF15AD446 /* ActionSheetMultipleStringPicker.h in Headers */ = {isa = PBXBuildFile; fileRef = 22940C0FA500355EECD96EF2BB03105C /* ActionSheetMultipleStringPicker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6F4062C050A08BAB19738B47EEDFF665 /* Component.swift in Sources */ = {isa = PBXBuildFile; fileRef = 090352B7AA74F51F6701394938B533A8 /* Component.swift */; };
+		7BD14D5CB256D36A3E4AF823865DD03D /* SubscriptionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97A46FE94D9F6F53898BE5CC1DA34912 /* SubscriptionManager.swift */; };
+		82DB07E1965CC9FFA0340EDA2C5A05A0 /* ActionSheetLocalePicker.h in Headers */ = {isa = PBXBuildFile; fileRef = B97DF953FE5D4597448CA2F3A77D7268 /* ActionSheetLocalePicker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		83678861FC71A2BE986560E60D265F1C /* ActionSheetPicker-3.0-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C1303AB00956A16F39732086F36C7045 /* ActionSheetPicker-3.0-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		90E3389D33DD00DE304548BE9C52C69F /* ActionSheetCustomPicker.h in Headers */ = {isa = PBXBuildFile; fileRef = FACDE31EC4F2767D9358A21CEF67324E /* ActionSheetCustomPicker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9B2B8491E6B1B8EA1C9ACD37341C726B /* ActionSheetPicker.h in Headers */ = {isa = PBXBuildFile; fileRef = FEE48C57A4987F7F060EC21CA5846E84 /* ActionSheetPicker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9B867960879FDDD089A9E41F027E13B9 /* AbstractActionSheetPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E031EA9A6D7CAC0AEECBD9B8DD32801 /* AbstractActionSheetPicker.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		9BC276383ED044BB0926AFDFD73F928E /* ActionSheetDatePicker.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E334F466D59B2DD8A57BBAD94D47C42 /* ActionSheetDatePicker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A2F74AC56E76F01E7A69BB8D3A7E3DB8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */; };
+		A36D64F5BF8C9AA6D6BB84B80A0F7520 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		A3EB2C768E9CBAFB54872FFED36C2FD7 /* Pods-Comida-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D2893E1975181333720D00ACF94AABB7 /* Pods-Comida-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A7E9B285BE72E881DDFBB5F519DC7F51 /* Core.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E48F771DE1A528175BD4538064D4D22 /* Core.swift */; };
+		A970336A1AE295486AE20873F7B9A668 /* Pods-Comida-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3317C9316B36749D7E90011908286A6E /* Pods-Comida-dummy.m */; };
+		AE84E0341C26A9B5C8E1501C8E8AAC8F /* ActionSheetCustomPickerDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = DAC5F46FE432AB923263B0E4E531DAC0 /* ActionSheetCustomPickerDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B9ADB5D9F2F3A64A8015AACB136B9BCF /* Pods-ComidaUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 662C40655121DF17C70151A9D0C6401E /* Pods-ComidaUITests-dummy.m */; };
+		BDBFA441010D34FB51DC32F28314AD8D /* ActionSheetStringPicker.h in Headers */ = {isa = PBXBuildFile; fileRef = 32E95862582E0EC7A7F83CABF67AB539 /* ActionSheetStringPicker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C1B417CCF3C93D51BCAF648030012CC1 /* Definitions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58AC61BB2F02EE4CE7C375CA82EAA304 /* Definitions.swift */; };
+		C6CB72E223B27A0C2B06910EC0FADF67 /* ActionSheetStringPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A3BB94C45A8836300A476C761E44C9A /* ActionSheetStringPicker.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		CA068FC25E80824549668A53EC9379EC /* DistancePickerView.h in Headers */ = {isa = PBXBuildFile; fileRef = 25B1D6764A75C371F1289A05AA96D5E4 /* DistancePickerView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CC838339C0E4BB6BB1B5E03D21CB3893 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		CF603092BB51B5DA4D5DA4F5D9549353 /* Subscription.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9E1C1EB80C7AA1B06CA260244A2325C /* Subscription.swift */; };
+		DA732A6C79E7252A25F23A1497ACD0FD /* ActionSheetMultipleStringPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = B8D0C308DEBC492D07C79FFDE3ECBB63 /* ActionSheetMultipleStringPicker.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		E049CE807DA7A012BA222DE64920C3D1 /* SWActionSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C9A0AD7D0CD503729E2CF66D0BF9604 /* SWActionSheet.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		E61ED7FAF083B75902728EB20AC4BD92 /* ActionSheetCustomPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 0427DC61D73BB6434705C15DB47507A2 /* ActionSheetCustomPicker.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		EA138424C65ED3941CEC564807500D58 /* CoreArchitecture-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A2B6D03699D8214DF7EBC5610D46A29C /* CoreArchitecture-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F74D8BA0C1200B054CBDE98A958D6F28 /* Tree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 156BBC8461BDEEFD05988641FD41E46E /* Tree.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		91ED3DDAF29A99723D118A70653DE2E1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5CD66E7AC63B5B7B54176E4B1F95EFA3;
+			remoteInfo = CoreArchitecture;
+		};
+		A56BBE0AE0CF3A047E26E30030D960B5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 965699190112DDBD9B7864D091660DBC;
+			remoteInfo = "ActionSheetPicker-3.0";
+		};
+		B2BE55760FB00EC7A52AA0875B2A103A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5CD66E7AC63B5B7B54176E4B1F95EFA3;
+			remoteInfo = CoreArchitecture;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0030419E2BDF44E643F315272F317143 /* Pods-ComidaUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ComidaUITests-resources.sh"; sourceTree = "<group>"; };
+		0223F87A69B555D7EE758CC57FE76E87 /* ActionSheetLocalePicker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ActionSheetLocalePicker.m; path = Pickers/ActionSheetLocalePicker.m; sourceTree = "<group>"; };
+		03B584B5F91C8B2DCC7270769E12030A /* Pods-Comida-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Comida-acknowledgements.markdown"; sourceTree = "<group>"; };
+		0427DC61D73BB6434705C15DB47507A2 /* ActionSheetCustomPicker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ActionSheetCustomPicker.m; path = Pickers/ActionSheetCustomPicker.m; sourceTree = "<group>"; };
+		07CCD5FAA45C815B24E0808969CC9539 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		090352B7AA74F51F6701394938B533A8 /* Component.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Component.swift; path = Core/Sources/Component.swift; sourceTree = "<group>"; };
+		09F4F2A5D71EE88674428F26A7E1D5BA /* CoreArchitecture.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CoreArchitecture.xcconfig; sourceTree = "<group>"; };
+		0E48F771DE1A528175BD4538064D4D22 /* Core.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Core.swift; path = Core/Sources/Core.swift; sourceTree = "<group>"; };
+		156BBC8461BDEEFD05988641FD41E46E /* Tree.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Tree.swift; path = Core/Sources/Helpers/Tree.swift; sourceTree = "<group>"; };
+		22940C0FA500355EECD96EF2BB03105C /* ActionSheetMultipleStringPicker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ActionSheetMultipleStringPicker.h; path = Pickers/ActionSheetMultipleStringPicker.h; sourceTree = "<group>"; };
+		25B1D6764A75C371F1289A05AA96D5E4 /* DistancePickerView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DistancePickerView.h; path = Pickers/DistancePickerView.h; sourceTree = "<group>"; };
+		2E031EA9A6D7CAC0AEECBD9B8DD32801 /* AbstractActionSheetPicker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AbstractActionSheetPicker.m; path = Pickers/AbstractActionSheetPicker.m; sourceTree = "<group>"; };
+		3188182E627E1065FECBDC68D356F0F7 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		32E95862582E0EC7A7F83CABF67AB539 /* ActionSheetStringPicker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ActionSheetStringPicker.h; path = Pickers/ActionSheetStringPicker.h; sourceTree = "<group>"; };
+		3317C9316B36749D7E90011908286A6E /* Pods-Comida-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Comida-dummy.m"; sourceTree = "<group>"; };
+		332C24117DBD264CFA3D60E676597538 /* Pods-ComidaTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ComidaTests-dummy.m"; sourceTree = "<group>"; };
+		3A3294E7CCA9C17552F5BB31540DDA47 /* Pods-Comida.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-Comida.modulemap"; sourceTree = "<group>"; };
+		3BA467EE5B185C5CE9EC5F2A6992129A /* Pods-ComidaUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ComidaUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		3C9A0AD7D0CD503729E2CF66D0BF9604 /* SWActionSheet.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SWActionSheet.m; path = Pickers/SWActionSheet.m; sourceTree = "<group>"; };
+		3F21191B121833C4E91E3761440920E2 /* Pods-Comida-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Comida-resources.sh"; sourceTree = "<group>"; };
+		3FBBE36BC3B7B3B9C791BE4FF78B0CAF /* Pods-ComidaTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-ComidaTests.modulemap"; sourceTree = "<group>"; };
+		43E506F25E2A6CC501B42199F601A061 /* ActionSheetDistancePicker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ActionSheetDistancePicker.m; path = Pickers/ActionSheetDistancePicker.m; sourceTree = "<group>"; };
+		4473A023A978BB2E3A14D8BDE52433F2 /* Pods-ComidaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ComidaTests.debug.xcconfig"; sourceTree = "<group>"; };
+		45F07EB56A8C5F49E8FE6623196B4C43 /* ActionSheetPicker-3.0-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ActionSheetPicker-3.0-dummy.m"; sourceTree = "<group>"; };
+		4AAD4079179F27CB8D234E266D02CD95 /* Pods-ComidaUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ComidaUITests-frameworks.sh"; sourceTree = "<group>"; };
+		4DE29A23A42B9F11AC7CC6A0FBDB283A /* Pods-Comida.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Comida.debug.xcconfig"; sourceTree = "<group>"; };
+		51AE6C4EB732DF9C28FB3006324F3292 /* CoreArchitecture-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CoreArchitecture-prefix.pch"; sourceTree = "<group>"; };
+		58AC61BB2F02EE4CE7C375CA82EAA304 /* Definitions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Definitions.swift; path = Core/Sources/Definitions.swift; sourceTree = "<group>"; };
+		5A8482CAD4E910E1EBFDB9765BF0BC62 /* Navigation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Navigation.swift; path = Core/Sources/Navigation.swift; sourceTree = "<group>"; };
+		662C40655121DF17C70151A9D0C6401E /* Pods-ComidaUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ComidaUITests-dummy.m"; sourceTree = "<group>"; };
+		6678A519BEDFD55CBC5A6EC6339BE606 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6B157BD24E044ADB46FB1829D23C8F6B /* ActionSheetPicker-3.0.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "ActionSheetPicker-3.0.modulemap"; sourceTree = "<group>"; };
+		6B5D43407EF355F0CA3F2D587D8FD9E6 /* Pods-ComidaTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ComidaTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		6DB0B29580EFB73C3BAB1CB67DA80DBE /* Pods-ComidaUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-ComidaUITests.modulemap"; sourceTree = "<group>"; };
+		75AFE09101721D4E305DFF21ABDE8427 /* ActionSheetPicker-3.0.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "ActionSheetPicker-3.0.xcconfig"; sourceTree = "<group>"; };
+		7A75E0A66677DD4F5EF0536163DE9CE9 /* ActionSheetDatePicker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ActionSheetDatePicker.m; path = Pickers/ActionSheetDatePicker.m; sourceTree = "<group>"; };
+		7BC8FD235FC49C2BC3F7B9582F403A8B /* Pods-ComidaTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ComidaTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7D1869E333E491799FB4E6522110FADF /* Pods-ComidaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ComidaTests.release.xcconfig"; sourceTree = "<group>"; };
+		7DE41095D7C5D00305571FBDCD36C507 /* CoreArchitecture.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = CoreArchitecture.modulemap; sourceTree = "<group>"; };
+		898DB5DDA590814F4E04635792C734B4 /* Pods-ComidaTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ComidaTests-resources.sh"; sourceTree = "<group>"; };
+		8B9D74DA1496043325C5A2637CC2D379 /* ActionSheetPicker_3_0.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ActionSheetPicker_3_0.framework; path = "ActionSheetPicker-3.0.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D5728DCF4104EF1BDC667807A2678F9 /* Pods-ComidaUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ComidaUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		8ECE82221EF026FB1B08476B8B6DC770 /* Pods-ComidaUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ComidaUITests.release.xcconfig"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		96A39791FA9F45A1E0C0051CBB7ABE2C /* Pods_Comida.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Comida.framework; path = "Pods-Comida.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		97A46FE94D9F6F53898BE5CC1DA34912 /* SubscriptionManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SubscriptionManager.swift; path = Core/Sources/Helpers/SubscriptionManager.swift; sourceTree = "<group>"; };
+		9A3BB94C45A8836300A476C761E44C9A /* ActionSheetStringPicker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ActionSheetStringPicker.m; path = Pickers/ActionSheetStringPicker.m; sourceTree = "<group>"; };
+		9E334F466D59B2DD8A57BBAD94D47C42 /* ActionSheetDatePicker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ActionSheetDatePicker.h; path = Pickers/ActionSheetDatePicker.h; sourceTree = "<group>"; };
+		A1AE5A38F47E0C7D49EC616E724F3DEA /* Middleware.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Middleware.swift; path = Core/Sources/Middleware.swift; sourceTree = "<group>"; };
+		A2B6D03699D8214DF7EBC5610D46A29C /* CoreArchitecture-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CoreArchitecture-umbrella.h"; sourceTree = "<group>"; };
+		AEF55BC47AC839EE937151C2539B40F8 /* Pods_ComidaUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ComidaUITests.framework; path = "Pods-ComidaUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1E744F18990D0E174EB41CC6F411B01 /* Pods-Comida-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Comida-acknowledgements.plist"; sourceTree = "<group>"; };
+		B4CEE893C37D0E825E79E60D15A0EBAD /* AbstractActionSheetPicker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AbstractActionSheetPicker.h; path = Pickers/AbstractActionSheetPicker.h; sourceTree = "<group>"; };
+		B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		B8D0C308DEBC492D07C79FFDE3ECBB63 /* ActionSheetMultipleStringPicker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ActionSheetMultipleStringPicker.m; path = Pickers/ActionSheetMultipleStringPicker.m; sourceTree = "<group>"; };
+		B97DF953FE5D4597448CA2F3A77D7268 /* ActionSheetLocalePicker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ActionSheetLocalePicker.h; path = Pickers/ActionSheetLocalePicker.h; sourceTree = "<group>"; };
+		B9D92AB4D2F551562EB1FC17A2298985 /* ActionSheetDistancePicker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ActionSheetDistancePicker.h; path = Pickers/ActionSheetDistancePicker.h; sourceTree = "<group>"; };
+		BAED22CBC004472E2851729540F3854F /* SWActionSheet.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SWActionSheet.h; path = Pickers/SWActionSheet.h; sourceTree = "<group>"; };
+		C1303AB00956A16F39732086F36C7045 /* ActionSheetPicker-3.0-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ActionSheetPicker-3.0-umbrella.h"; sourceTree = "<group>"; };
+		C5DB2A1BCD6B897E586471DA3F8833C8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C9360843773A14B5A1BCCEC3CC60D885 /* Pods-ComidaTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ComidaTests-umbrella.h"; sourceTree = "<group>"; };
+		CCB99373F02C2BD9408DB546C8C591DA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D23A0333308013A87376C50B004771CB /* CoreArchitecture.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CoreArchitecture.framework; path = CoreArchitecture.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2893E1975181333720D00ACF94AABB7 /* Pods-Comida-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Comida-umbrella.h"; sourceTree = "<group>"; };
+		D68C46D264179F1AD3F34F2171B40FC9 /* ActionSheetPicker-3.0-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ActionSheetPicker-3.0-prefix.pch"; sourceTree = "<group>"; };
+		D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		DAC5F46FE432AB923263B0E4E531DAC0 /* ActionSheetCustomPickerDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ActionSheetCustomPickerDelegate.h; path = Pickers/ActionSheetCustomPickerDelegate.h; sourceTree = "<group>"; };
+		DD8699A44FE32CE20E81C1E0E6ABAA34 /* Pods-ComidaUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ComidaUITests-umbrella.h"; sourceTree = "<group>"; };
+		DF8465424F97ADA00ADC892C243BC334 /* DistancePickerView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DistancePickerView.m; path = Pickers/DistancePickerView.m; sourceTree = "<group>"; };
+		E337D7E0B899128BDB0F340E4FE890BB /* Pods-Comida.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Comida.release.xcconfig"; sourceTree = "<group>"; };
+		E9E1C1EB80C7AA1B06CA260244A2325C /* Subscription.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Subscription.swift; path = Core/Sources/Subscription.swift; sourceTree = "<group>"; };
+		F478F996B2DE3214D9E247B312801B58 /* Pods_ComidaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ComidaTests.framework; path = "Pods-ComidaTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4B6C7E4D272C0C67427227E7E088320 /* Pods-ComidaUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ComidaUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		FACDE31EC4F2767D9358A21CEF67324E /* ActionSheetCustomPicker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ActionSheetCustomPicker.h; path = Pickers/ActionSheetCustomPicker.h; sourceTree = "<group>"; };
+		FCBFE4AE7B34BC1C97FCB05252EC4FCF /* Pods-Comida-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Comida-frameworks.sh"; sourceTree = "<group>"; };
+		FD7586063755DB65EA263009D6352D6A /* CoreArchitecture-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CoreArchitecture-dummy.m"; sourceTree = "<group>"; };
+		FEE48C57A4987F7F060EC21CA5846E84 /* ActionSheetPicker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ActionSheetPicker.h; path = Pickers/ActionSheetPicker.h; sourceTree = "<group>"; };
+		FFAB5FF37710BF6D73F61255687FFD7E /* Pods-ComidaTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ComidaTests-frameworks.sh"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		66076240C2ED6C56B870D99D6432B3F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC838339C0E4BB6BB1B5E03D21CB3893 /* Foundation.framework in Frameworks */,
+				A2F74AC56E76F01E7A69BB8D3A7E3DB8 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A32B73860B504C019446F020BC52A2D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3797A9C2890E10D2BCFA2272F0763AE4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5638A13D5B813F99F4210C2E6E2B45C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A36D64F5BF8C9AA6D6BB84B80A0F7520 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D72F5FCCF776A79048A997C4E277BC34 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DFE0B0F0E2DF6D5F55A50FCDA19B46F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E24E3CC1DBD859447BE39BC38A127906 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6224A1D397ECDEE9C9E0B84CAFF3768B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		21E389F73C6462ADF954910BFC3A9F3B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6B157BD24E044ADB46FB1829D23C8F6B /* ActionSheetPicker-3.0.modulemap */,
+				75AFE09101721D4E305DFF21ABDE8427 /* ActionSheetPicker-3.0.xcconfig */,
+				45F07EB56A8C5F49E8FE6623196B4C43 /* ActionSheetPicker-3.0-dummy.m */,
+				D68C46D264179F1AD3F34F2171B40FC9 /* ActionSheetPicker-3.0-prefix.pch */,
+				C1303AB00956A16F39732086F36C7045 /* ActionSheetPicker-3.0-umbrella.h */,
+				07CCD5FAA45C815B24E0808969CC9539 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ActionSheetPicker-3.0";
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				438B396F6B4147076630CAEFE34282C1 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		438B396F6B4147076630CAEFE34282C1 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */,
+				B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		55A8A073F5AD08341158883B3FABCC89 /* Pods-Comida */ = {
+			isa = PBXGroup;
+			children = (
+				6678A519BEDFD55CBC5A6EC6339BE606 /* Info.plist */,
+				3A3294E7CCA9C17552F5BB31540DDA47 /* Pods-Comida.modulemap */,
+				03B584B5F91C8B2DCC7270769E12030A /* Pods-Comida-acknowledgements.markdown */,
+				B1E744F18990D0E174EB41CC6F411B01 /* Pods-Comida-acknowledgements.plist */,
+				3317C9316B36749D7E90011908286A6E /* Pods-Comida-dummy.m */,
+				FCBFE4AE7B34BC1C97FCB05252EC4FCF /* Pods-Comida-frameworks.sh */,
+				3F21191B121833C4E91E3761440920E2 /* Pods-Comida-resources.sh */,
+				D2893E1975181333720D00ACF94AABB7 /* Pods-Comida-umbrella.h */,
+				4DE29A23A42B9F11AC7CC6A0FBDB283A /* Pods-Comida.debug.xcconfig */,
+				E337D7E0B899128BDB0F340E4FE890BB /* Pods-Comida.release.xcconfig */,
+			);
+			name = "Pods-Comida";
+			path = "Target Support Files/Pods-Comida";
+			sourceTree = "<group>";
+		};
+		61CA00EFD8378A814FD51C02A88B07D2 /* Pods-ComidaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C5DB2A1BCD6B897E586471DA3F8833C8 /* Info.plist */,
+				6DB0B29580EFB73C3BAB1CB67DA80DBE /* Pods-ComidaUITests.modulemap */,
+				8D5728DCF4104EF1BDC667807A2678F9 /* Pods-ComidaUITests-acknowledgements.markdown */,
+				F4B6C7E4D272C0C67427227E7E088320 /* Pods-ComidaUITests-acknowledgements.plist */,
+				662C40655121DF17C70151A9D0C6401E /* Pods-ComidaUITests-dummy.m */,
+				4AAD4079179F27CB8D234E266D02CD95 /* Pods-ComidaUITests-frameworks.sh */,
+				0030419E2BDF44E643F315272F317143 /* Pods-ComidaUITests-resources.sh */,
+				DD8699A44FE32CE20E81C1E0E6ABAA34 /* Pods-ComidaUITests-umbrella.h */,
+				3BA467EE5B185C5CE9EC5F2A6992129A /* Pods-ComidaUITests.debug.xcconfig */,
+				8ECE82221EF026FB1B08476B8B6DC770 /* Pods-ComidaUITests.release.xcconfig */,
+			);
+			name = "Pods-ComidaUITests";
+			path = "Target Support Files/Pods-ComidaUITests";
+			sourceTree = "<group>";
+		};
+		67F99BEC0BF807A0DDC28AC53785133E /* CoreArchitecture */ = {
+			isa = PBXGroup;
+			children = (
+				090352B7AA74F51F6701394938B533A8 /* Component.swift */,
+				0E48F771DE1A528175BD4538064D4D22 /* Core.swift */,
+				58AC61BB2F02EE4CE7C375CA82EAA304 /* Definitions.swift */,
+				A1AE5A38F47E0C7D49EC616E724F3DEA /* Middleware.swift */,
+				5A8482CAD4E910E1EBFDB9765BF0BC62 /* Navigation.swift */,
+				E9E1C1EB80C7AA1B06CA260244A2325C /* Subscription.swift */,
+				97A46FE94D9F6F53898BE5CC1DA34912 /* SubscriptionManager.swift */,
+				156BBC8461BDEEFD05988641FD41E46E /* Tree.swift */,
+				8795134FC6B1E9521FC88D69E9002145 /* Support Files */,
+			);
+			name = CoreArchitecture;
+			path = CoreArchitecture;
+			sourceTree = "<group>";
+		};
+		7AC292AE8083F46CC07620970E76AEC8 /* Pods-ComidaTests */ = {
+			isa = PBXGroup;
+			children = (
+				CCB99373F02C2BD9408DB546C8C591DA /* Info.plist */,
+				3FBBE36BC3B7B3B9C791BE4FF78B0CAF /* Pods-ComidaTests.modulemap */,
+				7BC8FD235FC49C2BC3F7B9582F403A8B /* Pods-ComidaTests-acknowledgements.markdown */,
+				6B5D43407EF355F0CA3F2D587D8FD9E6 /* Pods-ComidaTests-acknowledgements.plist */,
+				332C24117DBD264CFA3D60E676597538 /* Pods-ComidaTests-dummy.m */,
+				FFAB5FF37710BF6D73F61255687FFD7E /* Pods-ComidaTests-frameworks.sh */,
+				898DB5DDA590814F4E04635792C734B4 /* Pods-ComidaTests-resources.sh */,
+				C9360843773A14B5A1BCCEC3CC60D885 /* Pods-ComidaTests-umbrella.h */,
+				4473A023A978BB2E3A14D8BDE52433F2 /* Pods-ComidaTests.debug.xcconfig */,
+				7D1869E333E491799FB4E6522110FADF /* Pods-ComidaTests.release.xcconfig */,
+			);
+			name = "Pods-ComidaTests";
+			path = "Target Support Files/Pods-ComidaTests";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				DB82E71E32C280B816BA5F7C1A14C3EA /* Pods */,
+				A99D43ADCEEA122E046FB2D1CE9C6518 /* Products */,
+				805D36FAF7BCB43B553FEAB222246739 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		805D36FAF7BCB43B553FEAB222246739 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				55A8A073F5AD08341158883B3FABCC89 /* Pods-Comida */,
+				7AC292AE8083F46CC07620970E76AEC8 /* Pods-ComidaTests */,
+				61CA00EFD8378A814FD51C02A88B07D2 /* Pods-ComidaUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		8795134FC6B1E9521FC88D69E9002145 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7DE41095D7C5D00305571FBDCD36C507 /* CoreArchitecture.modulemap */,
+				09F4F2A5D71EE88674428F26A7E1D5BA /* CoreArchitecture.xcconfig */,
+				FD7586063755DB65EA263009D6352D6A /* CoreArchitecture-dummy.m */,
+				51AE6C4EB732DF9C28FB3006324F3292 /* CoreArchitecture-prefix.pch */,
+				A2B6D03699D8214DF7EBC5610D46A29C /* CoreArchitecture-umbrella.h */,
+				3188182E627E1065FECBDC68D356F0F7 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/CoreArchitecture";
+			sourceTree = "<group>";
+		};
+		A99D43ADCEEA122E046FB2D1CE9C6518 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8B9D74DA1496043325C5A2637CC2D379 /* ActionSheetPicker_3_0.framework */,
+				D23A0333308013A87376C50B004771CB /* CoreArchitecture.framework */,
+				96A39791FA9F45A1E0C0051CBB7ABE2C /* Pods_Comida.framework */,
+				F478F996B2DE3214D9E247B312801B58 /* Pods_ComidaTests.framework */,
+				AEF55BC47AC839EE937151C2539B40F8 /* Pods_ComidaUITests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DB82E71E32C280B816BA5F7C1A14C3EA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F18A8F783C594E8FC85A33EC456430D6 /* ActionSheetPicker-3.0 */,
+				67F99BEC0BF807A0DDC28AC53785133E /* CoreArchitecture */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F18A8F783C594E8FC85A33EC456430D6 /* ActionSheetPicker-3.0 */ = {
+			isa = PBXGroup;
+			children = (
+				B4CEE893C37D0E825E79E60D15A0EBAD /* AbstractActionSheetPicker.h */,
+				2E031EA9A6D7CAC0AEECBD9B8DD32801 /* AbstractActionSheetPicker.m */,
+				FACDE31EC4F2767D9358A21CEF67324E /* ActionSheetCustomPicker.h */,
+				0427DC61D73BB6434705C15DB47507A2 /* ActionSheetCustomPicker.m */,
+				DAC5F46FE432AB923263B0E4E531DAC0 /* ActionSheetCustomPickerDelegate.h */,
+				9E334F466D59B2DD8A57BBAD94D47C42 /* ActionSheetDatePicker.h */,
+				7A75E0A66677DD4F5EF0536163DE9CE9 /* ActionSheetDatePicker.m */,
+				B9D92AB4D2F551562EB1FC17A2298985 /* ActionSheetDistancePicker.h */,
+				43E506F25E2A6CC501B42199F601A061 /* ActionSheetDistancePicker.m */,
+				B97DF953FE5D4597448CA2F3A77D7268 /* ActionSheetLocalePicker.h */,
+				0223F87A69B555D7EE758CC57FE76E87 /* ActionSheetLocalePicker.m */,
+				22940C0FA500355EECD96EF2BB03105C /* ActionSheetMultipleStringPicker.h */,
+				B8D0C308DEBC492D07C79FFDE3ECBB63 /* ActionSheetMultipleStringPicker.m */,
+				FEE48C57A4987F7F060EC21CA5846E84 /* ActionSheetPicker.h */,
+				32E95862582E0EC7A7F83CABF67AB539 /* ActionSheetStringPicker.h */,
+				9A3BB94C45A8836300A476C761E44C9A /* ActionSheetStringPicker.m */,
+				25B1D6764A75C371F1289A05AA96D5E4 /* DistancePickerView.h */,
+				DF8465424F97ADA00ADC892C243BC334 /* DistancePickerView.m */,
+				BAED22CBC004472E2851729540F3854F /* SWActionSheet.h */,
+				3C9A0AD7D0CD503729E2CF66D0BF9604 /* SWActionSheet.m */,
+				21E389F73C6462ADF954910BFC3A9F3B /* Support Files */,
+			);
+			name = "ActionSheetPicker-3.0";
+			path = "ActionSheetPicker-3.0";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0D93C835C07603DE875986907B09DF9B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA138424C65ED3941CEC564807500D58 /* CoreArchitecture-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D32786A0E647766BDB315AB0F2F0256 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36C9719994A65D17369C6D4848029D38 /* Pods-ComidaUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7168AF4B49EE1459BCE8AC958F7EC526 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2680FB2A9AAFE79796C23A20390CEF45 /* AbstractActionSheetPicker.h in Headers */,
+				90E3389D33DD00DE304548BE9C52C69F /* ActionSheetCustomPicker.h in Headers */,
+				AE84E0341C26A9B5C8E1501C8E8AAC8F /* ActionSheetCustomPickerDelegate.h in Headers */,
+				9BC276383ED044BB0926AFDFD73F928E /* ActionSheetDatePicker.h in Headers */,
+				1648AB9E52071D70CD79280AB21C94D1 /* ActionSheetDistancePicker.h in Headers */,
+				82DB07E1965CC9FFA0340EDA2C5A05A0 /* ActionSheetLocalePicker.h in Headers */,
+				6C16BD3BCB1B65194E7CEA5CF15AD446 /* ActionSheetMultipleStringPicker.h in Headers */,
+				83678861FC71A2BE986560E60D265F1C /* ActionSheetPicker-3.0-umbrella.h in Headers */,
+				9B2B8491E6B1B8EA1C9ACD37341C726B /* ActionSheetPicker.h in Headers */,
+				BDBFA441010D34FB51DC32F28314AD8D /* ActionSheetStringPicker.h in Headers */,
+				CA068FC25E80824549668A53EC9379EC /* DistancePickerView.h in Headers */,
+				0E3BFC96C6A7CCADAF3DA6C3C80F35EC /* SWActionSheet.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8AB55661BAFC5D5CA9E0B777B89CAC84 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3EB2C768E9CBAFB54872FFED36C2FD7 /* Pods-Comida-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EACC94E470D6436E590A96BE195E7BC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0BBC446A2B3D4823BA6C0ACDA9EAE45D /* Pods-ComidaTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		5B4811812489932E72D61334AE3C2593 /* Pods-Comida */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E0E6A2D6D9E1F51920B7ACA56C17B71C /* Build configuration list for PBXNativeTarget "Pods-Comida" */;
+			buildPhases = (
+				CBC0B12C18F1B80964068E51844F7F1E /* Sources */,
+				A32B73860B504C019446F020BC52A2D4 /* Frameworks */,
+				8AB55661BAFC5D5CA9E0B777B89CAC84 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7DF599B5A3D8077AB4B37D49D7A6B780 /* PBXTargetDependency */,
+				8330F436AA6359BA695F3E3AF0D5DE11 /* PBXTargetDependency */,
+			);
+			name = "Pods-Comida";
+			productName = "Pods-Comida";
+			productReference = 96A39791FA9F45A1E0C0051CBB7ABE2C /* Pods_Comida.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		5CD66E7AC63B5B7B54176E4B1F95EFA3 /* CoreArchitecture */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE749124A8F7B30C34C97289A5AE902B /* Build configuration list for PBXNativeTarget "CoreArchitecture" */;
+			buildPhases = (
+				DFE52C3F7E1950B23951B6BDC1B72B83 /* Sources */,
+				D72F5FCCF776A79048A997C4E277BC34 /* Frameworks */,
+				0D93C835C07603DE875986907B09DF9B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CoreArchitecture;
+			productName = CoreArchitecture;
+			productReference = D23A0333308013A87376C50B004771CB /* CoreArchitecture.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		77641996E6A87BF315CF4AA77745696F /* Pods-ComidaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4BA7A6A0D63436EAF4E28CFEAE4898B /* Build configuration list for PBXNativeTarget "Pods-ComidaUITests" */;
+			buildPhases = (
+				CEC61938E418F45B42832E672D473D4C /* Sources */,
+				E24E3CC1DBD859447BE39BC38A127906 /* Frameworks */,
+				4D32786A0E647766BDB315AB0F2F0256 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-ComidaUITests";
+			productName = "Pods-ComidaUITests";
+			productReference = AEF55BC47AC839EE937151C2539B40F8 /* Pods_ComidaUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		965699190112DDBD9B7864D091660DBC /* ActionSheetPicker-3.0 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E127E32D0465A08437982F8B2A3077E /* Build configuration list for PBXNativeTarget "ActionSheetPicker-3.0" */;
+			buildPhases = (
+				93F271AD7E26CF5BCFADCFB7A504897D /* Sources */,
+				66076240C2ED6C56B870D99D6432B3F4 /* Frameworks */,
+				7168AF4B49EE1459BCE8AC958F7EC526 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ActionSheetPicker-3.0";
+			productName = "ActionSheetPicker-3.0";
+			productReference = 8B9D74DA1496043325C5A2637CC2D379 /* ActionSheetPicker_3_0.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A614F8F2B5247ECA424A420A67BFF767 /* Pods-ComidaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCB8B098A91833FAD52B03A5C9278277 /* Build configuration list for PBXNativeTarget "Pods-ComidaTests" */;
+			buildPhases = (
+				7BAE83B8792E6AA8E1DD58F72665B350 /* Sources */,
+				D5638A13D5B813F99F4210C2E6E2B45C /* Frameworks */,
+				8EACC94E470D6436E590A96BE195E7BC /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				399F103FB7A0629FD3B21FA55857E90C /* PBXTargetDependency */,
+			);
+			name = "Pods-ComidaTests";
+			productName = "Pods-ComidaTests";
+			productReference = F478F996B2DE3214D9E247B312801B58 /* Pods_ComidaTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = A99D43ADCEEA122E046FB2D1CE9C6518 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				965699190112DDBD9B7864D091660DBC /* ActionSheetPicker-3.0 */,
+				5CD66E7AC63B5B7B54176E4B1F95EFA3 /* CoreArchitecture */,
+				5B4811812489932E72D61334AE3C2593 /* Pods-Comida */,
+				A614F8F2B5247ECA424A420A67BFF767 /* Pods-ComidaTests */,
+				77641996E6A87BF315CF4AA77745696F /* Pods-ComidaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7BAE83B8792E6AA8E1DD58F72665B350 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59A42E97C831FA7B94CC77178FA678B3 /* Pods-ComidaTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93F271AD7E26CF5BCFADCFB7A504897D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B867960879FDDD089A9E41F027E13B9 /* AbstractActionSheetPicker.m in Sources */,
+				E61ED7FAF083B75902728EB20AC4BD92 /* ActionSheetCustomPicker.m in Sources */,
+				1A0130E51AF422F68818416677EE6595 /* ActionSheetDatePicker.m in Sources */,
+				246DD685C951FFF04D55232211F076CD /* ActionSheetDistancePicker.m in Sources */,
+				430E0A46B42F47FF79AE16168D1613E9 /* ActionSheetLocalePicker.m in Sources */,
+				DA732A6C79E7252A25F23A1497ACD0FD /* ActionSheetMultipleStringPicker.m in Sources */,
+				29C34B43AFA7A1D88AB188801C76E08C /* ActionSheetPicker-3.0-dummy.m in Sources */,
+				C6CB72E223B27A0C2B06910EC0FADF67 /* ActionSheetStringPicker.m in Sources */,
+				3C8D2470783809376BA929A9603C21D9 /* DistancePickerView.m in Sources */,
+				E049CE807DA7A012BA222DE64920C3D1 /* SWActionSheet.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBC0B12C18F1B80964068E51844F7F1E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A970336A1AE295486AE20873F7B9A668 /* Pods-Comida-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEC61938E418F45B42832E672D473D4C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9ADB5D9F2F3A64A8015AACB136B9BCF /* Pods-ComidaUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFE52C3F7E1950B23951B6BDC1B72B83 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F4062C050A08BAB19738B47EEDFF665 /* Component.swift in Sources */,
+				A7E9B285BE72E881DDFBB5F519DC7F51 /* Core.swift in Sources */,
+				239BEB762B67F274BBEE94157A2D832A /* CoreArchitecture-dummy.m in Sources */,
+				C1B417CCF3C93D51BCAF648030012CC1 /* Definitions.swift in Sources */,
+				27A3D509E77806BEBB3B4F196B145AC4 /* Middleware.swift in Sources */,
+				109306170FA7802CDAAF8129F9B31887 /* Navigation.swift in Sources */,
+				CF603092BB51B5DA4D5DA4F5D9549353 /* Subscription.swift in Sources */,
+				7BD14D5CB256D36A3E4AF823865DD03D /* SubscriptionManager.swift in Sources */,
+				F74D8BA0C1200B054CBDE98A958D6F28 /* Tree.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		399F103FB7A0629FD3B21FA55857E90C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CoreArchitecture;
+			target = 5CD66E7AC63B5B7B54176E4B1F95EFA3 /* CoreArchitecture */;
+			targetProxy = 91ED3DDAF29A99723D118A70653DE2E1 /* PBXContainerItemProxy */;
+		};
+		7DF599B5A3D8077AB4B37D49D7A6B780 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "ActionSheetPicker-3.0";
+			target = 965699190112DDBD9B7864D091660DBC /* ActionSheetPicker-3.0 */;
+			targetProxy = A56BBE0AE0CF3A047E26E30030D960B5 /* PBXContainerItemProxy */;
+		};
+		8330F436AA6359BA695F3E3AF0D5DE11 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CoreArchitecture;
+			target = 5CD66E7AC63B5B7B54176E4B1F95EFA3 /* CoreArchitecture */;
+			targetProxy = B2BE55760FB00EC7A52AA0875B2A103A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0B30FCA4C8897C7B923E08A9A0BC1B6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 09F4F2A5D71EE88674428F26A7E1D5BA /* CoreArchitecture.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CoreArchitecture/CoreArchitecture-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CoreArchitecture/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CoreArchitecture/CoreArchitecture.modulemap";
+				PRODUCT_NAME = CoreArchitecture;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		12C4B864767C59600DBFA238F1E2F8BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		256CE10F296979765CCA3DB8D3707809 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 09F4F2A5D71EE88674428F26A7E1D5BA /* CoreArchitecture.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CoreArchitecture/CoreArchitecture-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CoreArchitecture/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CoreArchitecture/CoreArchitecture.modulemap";
+				PRODUCT_NAME = CoreArchitecture;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		356DC7D89E3239C114913C7116B17439 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D1869E333E491799FB4E6522110FADF /* Pods-ComidaTests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ComidaTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ComidaTests/Pods-ComidaTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ComidaTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		477EB64BB927B80B945E1B3257578F5B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4473A023A978BB2E3A14D8BDE52433F2 /* Pods-ComidaTests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ComidaTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ComidaTests/Pods-ComidaTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ComidaTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		59F0302F2371FCC6B73EF0A418D40734 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		5EE64F11B9958561EB0020579D9AAB13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8ECE82221EF026FB1B08476B8B6DC770 /* Pods-ComidaUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ComidaUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ComidaUITests/Pods-ComidaUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ComidaUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7032980DDC1470188FFB3D11F6473E4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 75AFE09101721D4E305DFF21ABDE8427 /* ActionSheetPicker-3.0.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ActionSheetPicker-3.0/ActionSheetPicker-3.0-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ActionSheetPicker-3.0/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ActionSheetPicker-3.0/ActionSheetPicker-3.0.modulemap";
+				PRODUCT_NAME = ActionSheetPicker_3_0;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		85261A34AF95BF3C0E0B00E996A9ACDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3BA467EE5B185C5CE9EC5F2A6992129A /* Pods-ComidaUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ComidaUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ComidaUITests/Pods-ComidaUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ComidaUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A520FCB81E0163DFED6F8812238B5B4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 75AFE09101721D4E305DFF21ABDE8427 /* ActionSheetPicker-3.0.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ActionSheetPicker-3.0/ActionSheetPicker-3.0-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ActionSheetPicker-3.0/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ActionSheetPicker-3.0/ActionSheetPicker-3.0.modulemap";
+				PRODUCT_NAME = ActionSheetPicker_3_0;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		ABE31DCA4E82AF7ADB1F2F443B19C7C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4DE29A23A42B9F11AC7CC6A0FBDB283A /* Pods-Comida.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Comida/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Comida/Pods-Comida.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Comida;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CA99D7E79F9830DB119C1FC669AD817A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E337D7E0B899128BDB0F340E4FE890BB /* Pods-Comida.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Comida/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Comida/Pods-Comida.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Comida;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59F0302F2371FCC6B73EF0A418D40734 /* Debug */,
+				12C4B864767C59600DBFA238F1E2F8BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7E127E32D0465A08437982F8B2A3077E /* Build configuration list for PBXNativeTarget "ActionSheetPicker-3.0" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A520FCB81E0163DFED6F8812238B5B4A /* Debug */,
+				7032980DDC1470188FFB3D11F6473E4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BCB8B098A91833FAD52B03A5C9278277 /* Build configuration list for PBXNativeTarget "Pods-ComidaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				477EB64BB927B80B945E1B3257578F5B /* Debug */,
+				356DC7D89E3239C114913C7116B17439 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE749124A8F7B30C34C97289A5AE902B /* Build configuration list for PBXNativeTarget "CoreArchitecture" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B30FCA4C8897C7B923E08A9A0BC1B6C /* Debug */,
+				256CE10F296979765CCA3DB8D3707809 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E0E6A2D6D9E1F51920B7ACA56C17B71C /* Build configuration list for PBXNativeTarget "Pods-Comida" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABE31DCA4E82AF7ADB1F2F443B19C7C4 /* Debug */,
+				CA99D7E79F9830DB119C1FC669AD817A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4BA7A6A0D63436EAF4E28CFEAE4898B /* Build configuration list for PBXNativeTarget "Pods-ComidaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85261A34AF95BF3C0E0B00E996A9ACDB /* Debug */,
+				5EE64F11B9958561EB0020579D9AAB13 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
